@@ -6,7 +6,7 @@ public class FibonacciSequenceApp {
 	public static void main(String[] args) {
 		System.out.println("Welcome to the Fibonacci Sequence App!\n");
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Enter the number Fibonacci Sequence terms  you would like: ");
+		System.out.print("Enter the number of Fibonacci Sequence terms you would like to see: ");
 		int nbrOfTerms = sc.nextInt();
 		
 		int[] fibTerms = new int[nbrOfTerms];
